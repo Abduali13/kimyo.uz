@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/FileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/FileDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +58,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev/Abduali&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -201,6 +197,7 @@
       <workItem from="1730898472012" duration="646000" />
       <workItem from="1731910796615" duration="547000" />
       <workItem from="1733597613269" duration="476000" />
+      <workItem from="1733598592060" duration="1010000" />
     </task>
     <servers />
   </component>

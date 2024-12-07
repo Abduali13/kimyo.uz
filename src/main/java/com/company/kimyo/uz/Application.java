@@ -12,15 +12,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         info = @Info(
                 title = "Kimyo.uz",
                 version = "1 - version",
-                description = "Java 7 Students Project",
+                description = "Java Project",
                 license = @License(
-                        name = "Kimyo.uz Project License",
-                        url = "https://isystem.uz"
+                        name = "Kimyo.uz Project License"
                 ),
                 contact = @Contact(
-                        name = "Hasanboy Xalilov",
-                        url = "https://t.me/HasanboyXalilov",
-                        email = "hasanboyxalilov75@gmail.com"
+                        name = "Abduali Abdumutalibov",
+                        url = "https://t.me/abdumutalibov_a",
+                        email = "dryden1309@gmail.com"
                 )
         )
 )
@@ -30,5 +29,4 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-	//todo;
 }

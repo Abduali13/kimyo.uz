@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/FileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/FileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev/Hasanboy" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Abduali13&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hasanboyy/kimyo.uz.git&quot;,
+    &quot;accountId&quot;: &quot;a06b68cc-8086-4cc9-a1e7-edb1db101000&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XGCLdDIsOmPIqQL8qREMlfjpZi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev/Abduali&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.kimyo.uz.repository.impl" />
+      <recent name="com.company.kimyo.uz.dto.response" />
+      <recent name="com.company.kimyo.uz.dto.request" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean package -Dmaven.test.skip" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="generated-requests | #13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" requestIdentifier="#13" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" requestIdentifier="#16" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #17" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="17" requestIdentifier="#17" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kimyo.uz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.kimyo.uz.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #18" />
+        <item itemvalue="HTTP Request.generated-requests | #17" />
+        <item itemvalue="HTTP Request.generated-requests | #16" />
+        <item itemvalue="HTTP Request.generated-requests | #13" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="" />
+      <created>1698245974993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698245974993</updated>
+      <workItem from="1698245977162" duration="3110000" />
+      <workItem from="1698250067084" duration="2317000" />
+      <workItem from="1698299905033" duration="586000" />
+      <workItem from="1698300515579" duration="13507000" />
+      <workItem from="1698398253444" duration="21000" />
+      <workItem from="1698399328454" duration="3963000" />
+      <workItem from="1698433184495" duration="32000" />
+      <workItem from="1698494645058" duration="580000" />
+      <workItem from="1698495278479" duration="259000" />
+      <workItem from="1698501589205" duration="105000" />
+      <workItem from="1698506159759" duration="802000" />
+      <workItem from="1698554331578" duration="49000" />
+      <workItem from="1698572884849" duration="52000" />
+      <workItem from="1698657010409" duration="3343000" />
+      <workItem from="1698739401604" duration="20000" />
+      <workItem from="1698753701399" duration="5782000" />
+      <workItem from="1698852297104" duration="2268000" />
+      <workItem from="1698929410423" duration="54000" />
+      <workItem from="1698929468861" duration="1425000" />
+      <workItem from="1698945726026" duration="676000" />
+      <workItem from="1698950531493" duration="565000" />
+      <workItem from="1699029800113" duration="3331000" />
+      <workItem from="1699190471999" duration="1349000" />
+      <workItem from="1699706468675" duration="566000" />
+      <workItem from="1699707065210" duration="623000" />
+      <workItem from="1699798078232" duration="1000" />
+      <workItem from="1699802041044" duration="579000" />
+      <workItem from="1699805091969" duration="2745000" />
+      <workItem from="1699865590982" duration="1517000" />
+      <workItem from="1699867689919" duration="2897000" />
+      <workItem from="1699963403239" duration="2318000" />
+      <workItem from="1700572207312" duration="2112000" />
+      <workItem from="1700909928103" duration="223000" />
+      <workItem from="1701279365930" duration="417000" />
+      <workItem from="1701696159619" duration="3748000" />
+      <workItem from="1701988026032" duration="418000" />
+      <workItem from="1701995834492" duration="685000" />
+      <workItem from="1701996566778" duration="599000" />
+      <workItem from="1702016323111" duration="664000" />
+      <workItem from="1702185951892" duration="3011000" />
+      <workItem from="1702637234859" duration="5006000" />
+      <workItem from="1702706472217" duration="6088000" />
+      <workItem from="1702878274557" duration="3678000" />
+      <workItem from="1702925501600" duration="1798000" />
+      <workItem from="1702962392827" duration="1304000" />
+      <workItem from="1702986458744" duration="52000" />
+      <workItem from="1702986522112" duration="307000" />
+      <workItem from="1703006572011" duration="3168000" />
+      <workItem from="1703010196902" duration="963000" />
+      <workItem from="1703050459252" duration="2510000" />
+      <workItem from="1703056187754" duration="1202000" />
+      <workItem from="1703159336244" duration="653000" />
+      <workItem from="1703177009723" duration="596000" />
+      <workItem from="1703263961953" duration="895000" />
+      <workItem from="1706338256139" duration="242000" />
+      <workItem from="1706338684348" duration="6503000" />
+      <workItem from="1708605974978" duration="429000" />
+      <workItem from="1714305710166" duration="16000" />
+      <workItem from="1716050218939" duration="2767000" />
+      <workItem from="1716103020294" duration="1986000" />
+      <workItem from="1716139015881" duration="598000" />
+      <workItem from="1717177372295" duration="19000" />
+      <workItem from="1717882708019" duration="16000" />
+      <workItem from="1717957217201" duration="1010000" />
+      <workItem from="1719337852720" duration="562000" />
+      <workItem from="1730898472012" duration="646000" />
+      <workItem from="1731910796615" duration="547000" />
+      <workItem from="1733597613269" duration="476000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="112" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="117" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="63" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

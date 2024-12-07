@@ -1,0 +1,23 @@
+2023-10-26T13:19:05.982+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : Starting Application using Java 19.0.2 with PID 2395 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+2023-10-26T13:19:05.985+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T13:19:06.336+05:00  INFO 2395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-26T13:19:06.372+05:00  INFO 2395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+2023-10-26T13:19:06.621+05:00  INFO 2395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-10-26T13:19:06.625+05:00  INFO 2395 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T13:19:06.626+05:00  INFO 2395 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-26T13:19:06.661+05:00  INFO 2395 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-26T13:19:06.661+05:00  INFO 2395 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2023-10-26T13:19:06.733+05:00  INFO 2395 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-26T13:19:06.754+05:00  INFO 2395 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-26T13:19:06.871+05:00  INFO 2395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-26T13:19:06.951+05:00  INFO 2395 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fc7152e
+2023-10-26T13:19:06.952+05:00  INFO 2395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-26T13:19:06.961+05:00  INFO 2395 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-10-26T13:19:06.962+05:00  WARN 2395 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-10-26T13:19:07.626+05:00  INFO 2395 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-26T13:19:07.633+05:00  INFO 2395 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T13:19:08.317+05:00  INFO 2395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-26T13:19:08.323+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : Started Application in 2.529 seconds (process running for 2.931)
+2023-10-26T13:19:10.520+05:00  INFO 2395 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T13:19:10.521+05:00  INFO 2395 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-26T13:19:10.523+05:00  INFO 2395 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

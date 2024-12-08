@@ -17,7 +17,6 @@ public class ResponseProductDto {
 
     private Integer prodId;
 
-    @NotBlank(message = "Product name cannot be null or empty")
     private String prodName;
 
 //    @NotBlank(message = "Product's description cannot be null or empty")
@@ -31,7 +30,6 @@ public class ResponseProductDto {
     private Integer prodAmount;
     private String prodType;
 
-    @NotNull(message = "Product's category id cannot be null or empty")
     private Integer categoryId;
 
     private ResponseCategoryDto responseCategoryDto;

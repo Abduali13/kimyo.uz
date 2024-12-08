@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="" />
+    <list default="true" id="4d744a83-3cbc-4f04-baa3-715fecd65c18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5740a-83ce-4c72-a74d-0700f623edf8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5af5740a-83ce-4c72-a74d-0700f623edf8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5740a-83ce-4c72-a74d-0700f623edf8/storage_v2/_src_/database/kimyo_db.2Exp3g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5af5740a-83ce-4c72-a74d-0700f623edf8/storage_v2/_src_/database/kimyo_db.2Exp3g/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging-file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/config/ScheduleJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/config/ScheduleJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestCardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestCardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestCategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestCategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestOrdersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestOrdersDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/request/RequestUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseCardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseCardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseCategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseCategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseOrdersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseOrdersDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/dto/response/ResponseUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/entity/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/validation/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/kimyo/uz/service/validation/UserValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/kimyo/uz/entity/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/kimyo/uz/entity/Card.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +61,10 @@
     &quot;accountId&quot;: &quot;a06b68cc-8086-4cc9-a1e7-edb1db101000&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,6 +78,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -58,6 +87,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -81,9 +111,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="generated-requests | #13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" requestIdentifier="#13" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" requestIdentifier="#16" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -103,13 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #18" />
         <item itemvalue="HTTP Request.generated-requests | #17" />
         <item itemvalue="HTTP Request.generated-requests | #16" />
-        <item itemvalue="HTTP Request.generated-requests | #13" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +239,9 @@
       <workItem from="1731910796615" duration="547000" />
       <workItem from="1733597613269" duration="476000" />
       <workItem from="1733598592060" duration="1010000" />
+      <workItem from="1733600503492" duration="1860000" />
+      <workItem from="1733653344114" duration="616000" />
+      <workItem from="1733654490279" duration="6721000" />
     </task>
     <servers />
   </component>

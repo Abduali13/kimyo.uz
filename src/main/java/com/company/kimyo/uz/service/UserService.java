@@ -1,5 +1,6 @@
 package com.company.kimyo.uz.service;
 
+import com.company.kimyo.uz.dto.ErrorDto;
 import com.company.kimyo.uz.dto.ResponseDto;
 import com.company.kimyo.uz.dto.request.RequestUserDto;
 import com.company.kimyo.uz.dto.response.ResponseUserDto;
@@ -32,13 +33,13 @@ public class UserService implements SimpleCrud<Integer, ResponseUserDto, Request
     @Override
     public ResponseDto<ResponseUserDto> createEntity(RequestUserDto dto) {
 
-//        List<ErrorDto> errors = this.userValidation.userValid(dto);
-//        if (!errors.isEmpty()){
-//            return ResponseDto.<ResponseUserDto>builder()
-//                    .code(-3)
-//                    .message("Validation error")
-//                    .errorList(errors).build();
-//        }
+        List<ErrorDto> errors = this.userValidation.userValid(dto);
+        if (!errors.isEmpty()){
+            return ResponseDto.<ResponseUserDto>builder()
+                    .code(-3)
+                    .message("Validation error")
+                    .errorList(errors).build();
+        }
 
         try {
             User entity = this.userMapper.toEntity(dto);

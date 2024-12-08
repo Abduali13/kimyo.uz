@@ -1,23 +1,273 @@
-2023-10-26T13:19:05.982+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : Starting Application using Java 19.0.2 with PID 2395 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
-2023-10-26T13:19:05.985+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : No active profile set, falling back to 1 default profile: "default"
-2023-10-26T13:19:06.336+05:00  INFO 2395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-26T13:19:06.372+05:00  INFO 2395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
-2023-10-26T13:19:06.621+05:00  INFO 2395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-10-26T13:19:06.625+05:00  INFO 2395 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-26T13:19:06.626+05:00  INFO 2395 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-26T13:19:06.661+05:00  INFO 2395 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-26T13:19:06.661+05:00  INFO 2395 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
-2023-10-26T13:19:06.733+05:00  INFO 2395 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-26T13:19:06.754+05:00  INFO 2395 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
-2023-10-26T13:19:06.871+05:00  INFO 2395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-26T13:19:06.951+05:00  INFO 2395 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fc7152e
-2023-10-26T13:19:06.952+05:00  INFO 2395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-26T13:19:06.961+05:00  INFO 2395 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
-2023-10-26T13:19:06.962+05:00  WARN 2395 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
-2023-10-26T13:19:07.626+05:00  INFO 2395 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-10-26T13:19:07.633+05:00  INFO 2395 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-26T13:19:08.317+05:00  INFO 2395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-10-26T13:19:08.323+05:00  INFO 2395 --- [main] com.company.kimyo.uz.Application         : Started Application in 2.529 seconds (process running for 2.931)
-2023-10-26T13:19:10.520+05:00  INFO 2395 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-10-26T13:19:10.521+05:00  INFO 2395 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-10-26T13:19:10.523+05:00  INFO 2395 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+"2024-12-08 17:08:33 - Starting Application using Java 19.0.2 with PID 4318 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+""2024-12-08 17:08:33 - No active profile set, falling back to 1 default profile: "default"
+""2024-12-08 17:08:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-08 17:08:34 - Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+""2024-12-08 17:08:34 - Tomcat initialized with port(s): 8080 (http)
+""2024-12-08 17:08:34 - Starting service [Tomcat]
+""2024-12-08 17:08:34 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+""2024-12-08 17:08:34 - Initializing Spring embedded WebApplicationContext
+""2024-12-08 17:08:34 - Root WebApplicationContext: initialization completed in 660 ms
+""2024-12-08 17:08:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-08 17:08:34 - HHH000412: Hibernate ORM core version 6.1.7.Final
+""2024-12-08 17:08:34 - HikariPool-1 - Starting...
+""2024-12-08 17:08:34 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@632241f5
+""2024-12-08 17:08:34 - HikariPool-1 - Start completed.
+""2024-12-08 17:08:34 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+""2024-12-08 17:08:34 - HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - relation "cards" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - relation "order_item" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - relation "payment" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "basket" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "cards" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "category" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "files" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "order_item" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "orders" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "payment" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "product" does not exist, skipping
+""2024-12-08 17:08:35 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:08:35 - table "users" does not exist, skipping
+""2024-12-08 17:08:35 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-08 17:08:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:08:35 - Post Constructor Started!
+""2024-12-08 17:08:36 - Tomcat started on port(s): 8080 (http) with context path ''
+""2024-12-08 17:08:36 - Started Application in 2.408 seconds (process running for 2.697)
+""2024-12-08 17:09:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-12-08 17:09:07 - Initializing Servlet 'dispatcherServlet'
+""2024-12-08 17:09:07 - Completed initialization in 1 ms
+""2024-12-08 17:09:07 - Init duration for springdoc-openapi is: 137 ms
+""2024-12-08 17:09:27 - This Project Destroyed
+""2024-12-08 17:09:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:09:27 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2024-12-08 17:09:27 - HikariPool-1 - Shutdown initiated...
+""2024-12-08 17:09:27 - HikariPool-1 - Shutdown completed.
+""2024-12-08 17:14:37 - Starting Application using Java 19.0.2 with PID 4555 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+""2024-12-08 17:14:37 - No active profile set, falling back to 1 default profile: "default"
+""2024-12-08 17:14:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-08 17:14:37 - Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+""2024-12-08 17:14:38 - Tomcat initialized with port(s): 8080 (http)
+""2024-12-08 17:14:38 - Starting service [Tomcat]
+""2024-12-08 17:14:38 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+""2024-12-08 17:14:38 - Initializing Spring embedded WebApplicationContext
+""2024-12-08 17:14:38 - Root WebApplicationContext: initialization completed in 591 ms
+""2024-12-08 17:14:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-08 17:14:38 - HHH000412: Hibernate ORM core version 6.1.7.Final
+""2024-12-08 17:14:38 - HikariPool-1 - Starting...
+""2024-12-08 17:14:38 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6df791a4
+""2024-12-08 17:14:38 - HikariPool-1 - Start completed.
+""2024-12-08 17:14:38 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+""2024-12-08 17:14:38 - HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - relation "cards" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - relation "order_item" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - relation "payment" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "basket" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "cards" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "category" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "files" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "order_item" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "orders" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "payment" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "product" does not exist, skipping
+""2024-12-08 17:14:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:14:38 - table "users" does not exist, skipping
+""2024-12-08 17:14:39 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-08 17:14:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:14:39 - Post Constructor Started!
+""2024-12-08 17:14:39 - Tomcat started on port(s): 8080 (http) with context path ''
+""2024-12-08 17:14:39 - Started Application in 2.477 seconds (process running for 2.71)
+""2024-12-08 17:14:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-12-08 17:14:44 - Initializing Servlet 'dispatcherServlet'
+""2024-12-08 17:14:44 - Completed initialization in 1 ms
+""2024-12-08 17:14:45 - Init duration for springdoc-openapi is: 125 ms
+""2024-12-08 17:16:05 - Init duration for springdoc-openapi is: 102 ms
+""2024-12-08 17:17:13 - This Project Destroyed
+""2024-12-08 17:17:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:17:13 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2024-12-08 17:17:13 - HikariPool-1 - Shutdown initiated...
+""2024-12-08 17:17:13 - HikariPool-1 - Shutdown completed.
+""2024-12-08 17:17:15 - Starting Application using Java 19.0.2 with PID 4632 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+""2024-12-08 17:17:15 - No active profile set, falling back to 1 default profile: "default"
+""2024-12-08 17:17:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-08 17:17:16 - Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+""2024-12-08 17:17:16 - Tomcat initialized with port(s): 8080 (http)
+""2024-12-08 17:17:16 - Starting service [Tomcat]
+""2024-12-08 17:17:16 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+""2024-12-08 17:17:16 - Initializing Spring embedded WebApplicationContext
+""2024-12-08 17:17:16 - Root WebApplicationContext: initialization completed in 589 ms
+""2024-12-08 17:17:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-08 17:17:16 - HHH000412: Hibernate ORM core version 6.1.7.Final
+""2024-12-08 17:17:16 - HikariPool-1 - Starting...
+""2024-12-08 17:17:16 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57e4b86c
+""2024-12-08 17:17:16 - HikariPool-1 - Start completed.
+""2024-12-08 17:17:16 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+""2024-12-08 17:17:16 - HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - relation "cards" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - relation "order_item" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - relation "payment" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "basket" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "cards" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "category" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "files" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "order_item" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "orders" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "payment" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "product" does not exist, skipping
+""2024-12-08 17:17:17 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 17:17:17 - table "users" does not exist, skipping
+""2024-12-08 17:17:17 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-08 17:17:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:17:17 - Post Constructor Started!
+""2024-12-08 17:17:17 - Tomcat started on port(s): 8080 (http) with context path ''
+""2024-12-08 17:17:17 - Started Application in 2.302 seconds (process running for 2.535)
+""2024-12-08 17:25:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-12-08 17:25:43 - Initializing Servlet 'dispatcherServlet'
+""2024-12-08 17:25:43 - Completed initialization in 3 ms
+""2024-12-08 17:27:28 - This Project Destroyed
+""2024-12-08 17:27:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 17:27:28 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2024-12-08 17:27:28 - HikariPool-1 - Shutdown initiated...
+""2024-12-08 17:27:28 - HikariPool-1 - Shutdown completed.
+""2024-12-08 18:41:37 - Starting Application using Java 19.0.2 with PID 5353 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+""2024-12-08 18:41:37 - No active profile set, falling back to 1 default profile: "default"
+""2024-12-08 18:41:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-08 18:41:37 - Finished Spring Data repository scanning in 26 ms. Found 6 JPA repository interfaces.
+""2024-12-08 18:41:38 - Tomcat initialized with port(s): 8080 (http)
+""2024-12-08 18:41:38 - Starting service [Tomcat]
+""2024-12-08 18:41:38 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+""2024-12-08 18:41:38 - Initializing Spring embedded WebApplicationContext
+""2024-12-08 18:41:38 - Root WebApplicationContext: initialization completed in 602 ms
+""2024-12-08 18:41:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-08 18:41:38 - HHH000412: Hibernate ORM core version 6.1.7.Final
+""2024-12-08 18:41:38 - HikariPool-1 - Starting...
+""2024-12-08 18:41:38 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43588265
+""2024-12-08 18:41:38 - HikariPool-1 - Start completed.
+""2024-12-08 18:41:38 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+""2024-12-08 18:41:38 - HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - relation "cards" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - relation "order_item" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - relation "payment" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "basket" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "cards" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "category" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "files" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "order_item" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "orders" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "payment" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "product" does not exist, skipping
+""2024-12-08 18:41:38 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:41:38 - table "users" does not exist, skipping
+""2024-12-08 18:41:38 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-08 18:41:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 18:41:38 - Post Constructor Started!
+""2024-12-08 18:41:39 - Tomcat started on port(s): 8080 (http) with context path ''
+""2024-12-08 18:41:39 - Started Application in 2.307 seconds (process running for 2.56)
+""2024-12-08 18:55:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-12-08 18:55:34 - Initializing Servlet 'dispatcherServlet'
+""2024-12-08 18:55:34 - Completed initialization in 1 ms
+""2024-12-08 18:55:46 - Init duration for springdoc-openapi is: 125 ms
+""2024-12-08 18:56:05 - Init duration for springdoc-openapi is: 100 ms
+""2024-12-08 18:59:30 - This Project Destroyed
+""2024-12-08 18:59:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 18:59:30 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2024-12-08 18:59:30 - HikariPool-1 - Shutdown initiated...
+""2024-12-08 18:59:30 - HikariPool-1 - Shutdown completed.
+""2024-12-08 18:59:31 - Starting Application using Java 19.0.2 with PID 5817 (/Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz/target/classes started by doniyor in /Users/doniyor/Documents/Java/JavaSpring/JavaSpring Backend/kimyo.uz)
+""2024-12-08 18:59:31 - No active profile set, falling back to 1 default profile: "default"
+""2024-12-08 18:59:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-12-08 18:59:32 - Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+""2024-12-08 18:59:32 - Tomcat initialized with port(s): 8080 (http)
+""2024-12-08 18:59:32 - Starting service [Tomcat]
+""2024-12-08 18:59:32 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+""2024-12-08 18:59:32 - Initializing Spring embedded WebApplicationContext
+""2024-12-08 18:59:32 - Root WebApplicationContext: initialization completed in 656 ms
+""2024-12-08 18:59:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-12-08 18:59:32 - HHH000412: Hibernate ORM core version 6.1.7.Final
+""2024-12-08 18:59:32 - HikariPool-1 - Starting...
+""2024-12-08 18:59:32 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64bba0eb
+""2024-12-08 18:59:32 - HikariPool-1 - Start completed.
+""2024-12-08 18:59:32 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+""2024-12-08 18:59:32 - HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - relation "cards" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - relation "order_item" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - relation "payment" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "basket" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "cards" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "category" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "files" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "order_item" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "orders" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "payment" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "product" does not exist, skipping
+""2024-12-08 18:59:33 - SQL Warning Code: 0, SQLState: 00000
+""2024-12-08 18:59:33 - table "users" does not exist, skipping
+""2024-12-08 18:59:33 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-12-08 18:59:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 18:59:33 - Post Constructor Started!
+""2024-12-08 18:59:34 - Tomcat started on port(s): 8080 (http) with context path ''
+""2024-12-08 18:59:34 - Started Application in 2.405 seconds (process running for 2.687)
+""2024-12-08 18:59:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-12-08 18:59:41 - Initializing Servlet 'dispatcherServlet'
+""2024-12-08 18:59:41 - Completed initialization in 2 ms
+""2024-12-08 18:59:47 - Init duration for springdoc-openapi is: 160 ms
+""2024-12-08 19:00:20 - Init duration for springdoc-openapi is: 53 ms
+""2024-12-08 19:00:41 - This Project Destroyed
+""2024-12-08 19:00:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-12-08 19:00:41 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2024-12-08 19:00:41 - HikariPool-1 - Shutdown initiated...
+""2024-12-08 19:00:41 - HikariPool-1 - Shutdown completed.
+"

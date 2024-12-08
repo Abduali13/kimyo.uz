@@ -16,8 +16,6 @@ import java.util.Set;
 public class ResponseCategoryDto {
 
     private Integer categoryId;
-
-    @NotBlank(message = "Category name cannot be null or empty")
     private String categoryName;
 
     private Set<ResponseProductDto> products;

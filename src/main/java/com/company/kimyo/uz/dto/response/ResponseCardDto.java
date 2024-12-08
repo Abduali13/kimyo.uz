@@ -14,18 +14,11 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseCardDto {
+
     private Integer cardId;
-
-    @NotBlank(message = "Card user's full name cannot be null or empty")
     private String cardFullName;
-
-    @NotBlank(message = "Card name cannot be null or empty")
     private String cardName;
-
-    @NotNull(message = "User id of card owner cannot be null or empty")
     private Integer userId;
-
-    @NotBlank(message = "Card code cannot be null or empty")
     private String cardCode;
 
     private ResponseUserDto users;

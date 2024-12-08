@@ -33,7 +33,7 @@ public class Card {
      @Column(name = "user_id")
      private Integer userId;
 
-     @Column(nullable = false, unique = true)
+     @Column(nullable = false)
      private String cardCode;
 
      @ManyToOne

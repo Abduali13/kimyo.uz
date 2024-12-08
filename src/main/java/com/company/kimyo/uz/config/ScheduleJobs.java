@@ -26,7 +26,7 @@ public class ScheduleJobs {
 //    @Scheduled(fixedDelay = 3, initialDelay = 5, timeUnit = TimeUnit.SECONDS)
     @Scheduled(cron = "5 * * * * *")
     public void simpleScheduleMethod() {
-        System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+//        System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss")));
 
     }
 

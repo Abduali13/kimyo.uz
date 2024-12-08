@@ -3,7 +3,9 @@ package com.company.kimyo.uz.service;
 import com.company.kimyo.uz.dto.request.RequestProductDto;
 import com.company.kimyo.uz.dto.response.ResponseProductDto;
 import com.company.kimyo.uz.dto.ResponseDto;
+import com.company.kimyo.uz.entity.Category;
 import com.company.kimyo.uz.entity.Product;
+import com.company.kimyo.uz.repository.CategoryRepository;
 import com.company.kimyo.uz.repository.ProductRepository;
 import com.company.kimyo.uz.repository.impl.ProductRepositoryImpl;
 import com.company.kimyo.uz.service.mapper.ProductMapper;
@@ -29,17 +31,28 @@ public class ProductService implements SimpleCrud<Integer, ResponseProductDto, R
     private final ProductMapper productMapper;
     private final ProductRepositoryImpl productRepositoryImpl;
     private final ProductRepository productRepository;
+    private final CategoryRepository categoryRepository;
 
     @Override
     public ResponseDto<ResponseProductDto> createEntity(RequestProductDto dto) {
+        Integer categoryId = dto.getCategoryId();
+        Optional<Category> category = categoryRepository.findByCategoryIdAndDeletedAtIsNull(categoryId);
+        if (category.isEmpty()){
+            return ResponseDto.<ResponseProductDto>builder()
+                    .code(-1)
+                    .message(String.format("Category id: %d is not found", categoryId))
+                    .build();
+        }
         try {
+            Product entity = this.productMapper.toEntity(dto);
+            entity.setCategoryId(categoryId);
             return ResponseDto.<ResponseProductDto>builder()
                     .success(true)
                     .message("OK")
                     .data(
-                            this.productMapper.toDto(
+                            this.productMapper.toDtoWithCategories(
                                     this.productRepository.save(
-                                            this.productMapper.toEntity(dto)
+                                            entity
                                     )
                             )
                     )
